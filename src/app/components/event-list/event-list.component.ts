@@ -18,7 +18,7 @@ export class EventListComponent implements OnInit {
     this.getEventList();
   }
   getEventList(){
-    let url="http://localhost:8080/event/deta";
+    let url="http://api.myjson.com/bins/hppuc";
     this.httpClient.get(url).subscribe(response=>{this.eventList = response;
     });
   }
