@@ -1,0 +1,16 @@
+.event-wrapper{
+    border:1px solid #FF0000;
+    padding:20px;
+    display:inline-block;
+    width:300px;
+    margin:20px;
+
+    
+}
+.name{
+    font-weight: 600;
+}
+.event-wrapper div{
+    margin-bottom:20px;
+}
+
